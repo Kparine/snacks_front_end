@@ -6,6 +6,8 @@ Web Application Purpose Built To Exercise Authorization/Authentication, Database
 
 * Download
 
+* Download ```npm install sass```
+
 * Run ```npm install```
 
 * Run In "Development Mode" ```npm run dev```
