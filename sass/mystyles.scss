@@ -6,21 +6,28 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
 $color: #7d9cce;
+$matteGrey: rgb(214, 214, 214);
+$matteBlack: rgb(145, 142, 142);
+
+
 
 .hero-body {
-  background-image: url("/img/neverhappen2.jpg");
   font-family: 'Comfortaa', cursive;
+  background: linear-gradient( transparentize($matteBlack, 0.40),
+  transparentize($matteBlack, 0.40)),
+  url('/img/brick.jpg') repeat;
+  background-position: 0 auto;
+  background-size: 0/100% auto;
 }
 h1 {
   font-size: 100px;
-  color: lighten(black, 20%);
+  color: lighten(black, 5%);
 }
 h2 {
   font-size: 50px;
-  color: black;
+  color: lighten(black, 15%);
   font-weight: 10em;
 }
 h1, h2 {
-  transform: rotate(-5deg);
-
+  transform: rotate(-15deg);
 }

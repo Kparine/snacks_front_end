@@ -6748,17 +6748,19 @@ label.panel-block {
   padding: 3rem 1.5rem 6rem; }
 
 .hero-body {
-  background-image: url("/img/neverhappen2.jpg");
-  font-family: 'Comfortaa', cursive; }
+  font-family: 'Comfortaa', cursive;
+  background: linear-gradient(rgba(145, 142, 142, 0.6), rgba(145, 142, 142, 0.6)), url("/img/brick.jpg") repeat;
+  background-position: 0 auto;
+  background-size: 0/100% auto; }
 
 h1 {
   font-size: 100px;
-  color: #333333; }
+  color: #0d0d0d; }
 
 h2 {
   font-size: 50px;
-  color: black;
+  color: #262626;
   font-weight: 10em; }
 
 h1, h2 {
-  transform: rotate(-5deg); }
+  transform: rotate(-15deg); }
