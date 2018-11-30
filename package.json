@@ -1,13 +1,13 @@
 {
-  "name": "galvanize-snacks-front-end",
+  "name": "snacks-front-end",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "sass/mystyles.scss",
   "scripts": {
     "build": "browserify scripts/main.js -o bundle.js",
     "watch": "watchify -d scripts/main.js -o bundle.js",
     "dev-server": "live-server .",
-    "dev": "run-all \"npm run watch\" \"npm run dev-server\"\"npm run css-watch\"",
+    "dev": "run-all \"npm run watch\" \"npm run dev-server\" \"npm run css-watch\"",
     "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/main.css",
     "css-watch": "npm run css-build -- --watch",
     "start": "npm run css-watch"
@@ -15,6 +15,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "bulma": "^0.7.2",
+    "node-sass": "^4.10.0",
     "npm-bundle": "^3.0.3",
     "sass": "^1.15.1",
     "uuid": "^3.3.2"
