@@ -2,6 +2,7 @@
 
 Web Application Purpose Built To Exercise Authorization/Authentication, Database Interactions, & Cumulative HTML/CSS & JavaScript Skills.
 
+
 ## __Installation__
 
 * Download
@@ -12,3 +13,7 @@ Web Application Purpose Built To Exercise Authorization/Authentication, Database
 
 * Run In "Development Mode" ```npm run dev```
 
+
+### __Screenshot__
+
+![Alt text](/img/LiveShot.png)
