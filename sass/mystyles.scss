@@ -43,7 +43,6 @@ $matteBlack: rgb(145, 142, 142);
 }
 
 body{
-  // background-color: #36494E;
   background: linear-gradient( transparentize($matteBlack, 0.70),
   transparentize($matteBlack, 0.70)),
   url('/img/bodybkgrd1.jpg') repeat;
@@ -151,7 +150,7 @@ body{
   cursor: pointer;
   transition: 0.4s ease;
 }
-.card .info button:hover {
-  background: dodgerblue;
+.card .info  button:hover {
+  background: #16425B;
   color: white;
 }
