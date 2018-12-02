@@ -1,5 +1,5 @@
 /*! bulma.io v0.7.2 | MIT License | github.com/jgthms/bulma */
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:900|Roboto+Slab");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:900|Shadows+Into+Light");
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -6749,21 +6749,40 @@ label.panel-block {
 
 .hero-body {
   font-family: 'PT Sans', sans-serif;
-  background: linear-gradient(rgba(145, 142, 142, 0.6), rgba(145, 142, 142, 0.6)), url("/img/plankSZ.jpg") repeat;
+  background: linear-gradient(rgba(145, 142, 142, 0.5), rgba(145, 142, 142, 0.5)), url("/img/plankSZ.jpg") repeat;
   background-position: 0 auto;
   background-size: 0/50% auto; }
 
 #header1 {
   font-size: 100px;
-  color: #0d0d0d; }
+  color: #262626; }
 
 #header2 {
-  font-size: 50px;
-  color: #262626;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 60px;
+  color: whitesmoke;
   font-weight: 10em; }
 
 #header1, #header2 {
   transform: rotate(-5deg); }
+
+.navbar-brand {
+  background-color: #2a7ead;
+  opacity: 0.9; }
+
+#navbar {
+  background-color: #16425B;
+  opacity: 0.9; }
+
+#homebtn {
+  color: black; }
+
+body {
+  background: linear-gradient(rgba(145, 142, 142, 0.3), rgba(145, 142, 142, 0.3)), url("/img/bodybkgrd1.jpg") repeat;
+  background-position: 0 auto;
+  background-size: 0/50% auto;
+  background-position: center;
+  background-position-y: 400px; }
 
 #cardTitle {
   font-size: 25px; }
@@ -6778,7 +6797,9 @@ label.panel-block {
 #wrapper {
   display: flex;
   width: 90%;
-  justify-content: space-around; }
+  justify-content: space-around;
+  padding-top: 35px;
+  padding-bottom: 60px; }
 
 .card {
   width: 280px;

@@ -3,30 +3,54 @@
 
 
 // Import a Google Font
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900|Shadows+Into+Light');
 
 $color: #7d9cce;
 $matteBlack: rgb(145, 142, 142);
 
 .hero-body {
   font-family: 'PT Sans', sans-serif;
-  background: linear-gradient( transparentize($matteBlack, 0.40),
-  transparentize($matteBlack, 0.40)),
+  background: linear-gradient( transparentize($matteBlack, 0.50),
+  transparentize($matteBlack, 0.50)),
   url('/img/plankSZ.jpg') repeat;
   background-position: 0 auto;
   background-size: 0/50% auto;
 }
 #header1 {
   font-size: 100px;
-  color: lighten(black, 5%);
+  color: lighten(black, 15%);
 }
 #header2 {
-  font-size: 50px;
-  color: lighten(black, 15%);
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 60px;
+  color: whitesmoke;
   font-weight: 10em;
 }
 #header1, #header2 {
   transform: rotate(-5deg);
+}
+
+.navbar-brand {
+  background-color: lighten(#16425B, 20%);
+  opacity: 0.9;
+}
+#navbar {
+  background-color:#16425B;
+  opacity: 0.9;
+}
+#homebtn {
+  color: black;
+}
+
+body{
+  // background-color: #36494E;
+  background: linear-gradient( transparentize($matteBlack, 0.70),
+  transparentize($matteBlack, 0.70)),
+  url('/img/bodybkgrd1.jpg') repeat;
+  background-position: 0 auto;
+  background-size: 0/50% auto;
+  background-position: center;
+  background-position-y: 400px;
 }
 
 /////////////////////////////////////////////// CARDS ///////////////////////////////////////////////
@@ -47,6 +71,8 @@ $matteBlack: rgb(145, 142, 142);
   display: flex;
   width: 90%;
   justify-content: space-around;
+  padding-top: 35px;
+  padding-bottom: 60px;
 }
 
 .card {
