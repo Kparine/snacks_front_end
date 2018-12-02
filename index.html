@@ -1,61 +1,141 @@
 <!doctype <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Log Blog!</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
   <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:800|PT+Sans:700i|Playfair+Display:900|Roboto+Slab" rel="stylesheet">
   <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css" />
   <script defer src="bundle.js"></script>
 </head>
+
 <body>
-    <section class="hero is-medium">
-        <div class="hero-body">
-          <div class="container">
-            <h1>
-              Charcuterie
-            </h1>
-            <h2>
-            For The Broke.
-            </h2>
+  <!-- TITLE BANNER -->
+
+  <section class="hero is-medium">
+    <div class="hero-body">
+      <div class="container" id='headerImg'>
+        <h1 id='header1'>
+          Plank.
+        </h1>
+        <h2 id='header2'>
+          Eat Cheese.
+        </h2>
+      </div>
+    </div>
+  </section>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://www.kevinparine.com/">
+        <img src="/img/kp-anchor-transparent.png">
+      </a>
+
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item">
+          Home
+        </a>
+      </div>
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button" id='navbtn'>
+            Sign up
+          </a>
+          <a class="button" id='navbtn'>
+            Log in
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+  <!-- BREAK -->
+
+  <span class='bkgrd'></span>
+  <span class='bkgrd'></span>
+
+  <!-- FOOD CARDS -->
+
+  <div class="container" id='wrapper'>
+    <div class='columns is-multiline'>
+
+      <div class='column'>
+
+        <div class="card" id='cardBody'><img src='/img/bread.jpg' />
+          <div class="info">
+            <h1 id='cardTitle'>Fresh Bread</h1>
+            <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+            <button>Read More</button>
           </div>
         </div>
-      </section>
-      <section>
-        <div class="container">
-          <div class="columns">
-            <div class="column is-one-quarter">
-      <div class="card">
-          <header class="card-header">
-            <p class="card-header-title">
-              Component
-            </p>
-            <a href="#" class="card-header-icon" aria-label="more options">
-              <span class="icon">
-                <i class="fas fa-angle-down" aria-hidden="true"></i>
-              </span>
-            </a>
-          </header>
-          <div class="card-content">
-            <div class="content">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
-              <a href="#">@bulmaio</a>. <a href="#">#css</a> <a href="#">#responsive</a>
-              <br>
-              <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-            </div>
+        <br>
+
+        <div class="card" id='cardBody'><img src="/img/cheese.jpg" />
+          <div class="info">
+            <h1 id='cardTitle'>Cheese</h1>
+            <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+            <button>Read More</button>
           </div>
-          <footer class="card-footer">
-            <a href="#" class="card-footer-item">Save</a>
-            <a href="#" class="card-footer-item">Edit</a>
-            <a href="#" class="card-footer-item">Delete</a>
-          </footer>
         </div>
-      </section>
+      </div>
+
+      <div class="column">
+
+        <div class="card" id='cardBody'><img src="/img/nuts.jpg" />
+          <div class="info">
+            <h1 id='cardTitle'>Dried Nuts</h1>
+            <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+            <button>Read More</button>
+          </div>
+        </div>
+        <br>
+        <div class="card" id='cardBody'><img src="/img/salami.jpg" />
+          <div class="info">
+            <h1 id='cardTitle'>Cured Salami</h1>
+            <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+
+
+        <div class="card" id='cardBody'><img src="/img/wine.jpg" />
+          <div class="info">
+            <h1 id='cardTitle'>Wine</h1>
+            <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+            <button>Read More</button>
+          </div>
+        </div>
+        <br>
+
+        <div class="card" id='cardBody'><img src="/img/fig.jpg" />
+          <div class="info">
+            <h1 id='cardTitle'>Dried Fruits</h1>
+            <p>Lorem Ipsum is simply dummy text from the printing and typeseting industry</p>
+            <button>Read More</button>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
-</div>
-
+  </section>
 </body>
+
 </html>
