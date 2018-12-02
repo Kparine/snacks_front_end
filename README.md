@@ -1,4 +1,6 @@
-# __GALVANIZE SNACKS FRONT END__
+# __SNACKS FRONT END__
+
+__PLANK. A front-end mockup for a Charcuterie and Wine Bar__ 
 
 Web Application Purpose Built To Exercise Authorization/Authentication, Database Interactions, & Cumulative HTML/CSS & JavaScript Skills.
 
